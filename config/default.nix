@@ -9,7 +9,7 @@
     ./theme.nix
     ./telescope.nix
     ./keymaps.nix
-    ./obsidian.nix
+    # ./obsidian.nix
     ./oil.nix
   ];
 
