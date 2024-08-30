@@ -1,6 +1,6 @@
 { pkgs, ... }:
 {
-  extraPackages = [ pkgs.texliveFull ];
+  # extraPackages = [ pkgs.texliveFull ];
 
   plugins.lsp.servers.texlab = { 
     enable = true;
