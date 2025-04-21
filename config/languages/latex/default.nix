@@ -7,17 +7,17 @@
     # filetypes = [ "latex" "bibtex" ];
   };
 
-  plugins.lsp.servers.ltex = {
-    enable = true;
-    settings = {
-      enabled = [
-        "bibtex"
-        "latex"
-      ];
+  # plugins.lsp.servers.ltex = {
+  #   enable = true;
+  #   settings = {
+  #     enabled = [
+  #       "bibtex"
+  #       "latex"
+  #     ];
 
-      language = "es";
-    };
-  };
+  #     language = "es";
+  #   };
+  # };
 
   files = {
     "ftplugin/latex.lua" = {
