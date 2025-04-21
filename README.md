@@ -1,17 +1,20 @@
-# Nixvim template
+# Run this config
 
-This template gives you a good starting point for configuring nixvim standalone.
-
-## Configuring
-
-To start configuring, just add or modify the nix files in `./config`.
-If you add a new configuration file, remember to add it to the
-[`config/default.nix`](./config/default.nix) file
-
-## Testing your new configuration
-
-To test your configuration simply run the following command
-
-```
+1. Inside the repository:
+``` bash
 nix run .
 ```
+
+2. Or you can run it remotely:
+```bash
+nix run 'github:aleTempest/Nixvim'
+```
+
+# Supported Languages
+- Lua
+- Python
+- Nix
+- Latex
+    - You can change the spell lang in `./config/languages/latex`. Default is eng.
+
+LSP, autocompletion and syntax highlighting.
