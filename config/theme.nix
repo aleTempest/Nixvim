@@ -1,11 +1,13 @@
 {
   colorschemes.gruvbox = {
-    enable = true;
+    enable = false;
     settings = {
       terminal_colors = true;
       contrast = "hard";
     };
   };
+
+  colorschemes.onedark.enable = true;
 
   plugins.lualine = {
     enable = true;
