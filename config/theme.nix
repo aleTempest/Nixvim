@@ -7,7 +7,10 @@
     };
   };
 
-  colorschemes.onedark.enable = true;
+  colorschemes.onedark = {
+    enable = true;
+    lazyLoad.enable = true;
+  };
 
   plugins.lualine = {
     enable = true;
