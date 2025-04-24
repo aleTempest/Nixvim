@@ -1,7 +1,7 @@
 {
   imports = [ 
     ./languages
-
+    ./copilot.nix
     ./treesitter.nix
     ./lsp.nix
     ./opts.nix

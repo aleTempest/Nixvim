@@ -9,7 +9,6 @@
 
   colorschemes.onedark = {
     enable = true;
-    lazyLoad.enable = true;
   };
 
   plugins.lualine = {
