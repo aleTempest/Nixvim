@@ -18,4 +18,5 @@
   plugins.vim-surround.enable = true;
   plugins.luasnip.enable = true;
   plugins.trouble.enable = true;
+  plugins.web-devicons.enable = true;
 }
