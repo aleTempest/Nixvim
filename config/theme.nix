@@ -9,6 +9,10 @@
 
   colorschemes.onedark = {
     enable = true;
+    settings = {
+      style = "deep";
+      transparent = true;
+    };
   };
 
   plugins.lualine = {
