@@ -15,7 +15,7 @@
 
   plugins.nvim-autopairs.enable = true;
   plugins.zen-mode.enable = true;
-  plugins.surround.enable = true;
+  plugins.vim-surround.enable = true;
   plugins.luasnip.enable = true;
   plugins.trouble.enable = true;
 }
